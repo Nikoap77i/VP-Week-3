@@ -41,7 +41,7 @@ enum class ReactionState { INITIAL, WAITING, READY, TRIAL_DONE, FAIL, FINAL }
 enum class ReactionCategory(val message: String, val color: Color, @DrawableRes val image: Int) {
     FAST("DANG YOU ARE SO FAST BRO!", Color(0xFF00E676), R.drawable.suangaar),
     GOOD("YOUR REFLEX IS GOOD", Color(0xFF2196F3), R.drawable.mantap),
-    AVERAGE("MEH LIKE OTHER PERSON", Color(0xFFFF9800), R.drawable.kureng),
+    AVERAGE("MEH LIKE ANY OTHER PERSON", Color(0xFFFF9800), R.drawable.kureng),
     SNAIL("YOU LIKE A SNAIL BRO", Color(0xFFFF5722), R.drawable.cupu);
 
     companion object {
